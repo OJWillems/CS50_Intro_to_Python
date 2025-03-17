@@ -1,5 +1,7 @@
 # SET DATATYPE
 
+# Sets don't allow for duplicates!
+
 students = [
     {"name": "Hermione", "house": "Gryffindor"},
     {"name": "Harry", "house": "Gryffindor"},

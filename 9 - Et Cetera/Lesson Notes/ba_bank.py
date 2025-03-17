@@ -13,7 +13,8 @@ def main():
     print(f"Balance: {balance}")
 
 def deposit(n):
-    # If you want to write to the global balance variable, you need to declare it as a global variable within the local environments (i.e. functions) that will be editing it
+    # If you want to write to the global balance variable, 
+    # you need to declare it as a global variable within the local environments (i.e. functions) that will be editing it
     global balance
     balance += n
 
