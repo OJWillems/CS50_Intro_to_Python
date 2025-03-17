@@ -26,8 +26,5 @@ def scourgify():
     except FileNotFoundError:
         sys.exit("File not found")
 
-def test():
-    print("THIS IS JUST TO TEST THE GITHUB INTEGRATION")
-
 if __name__ == "__main__":
     main()
